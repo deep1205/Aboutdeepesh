@@ -1,0 +1,57 @@
+
+<html>
+    <head>
+    <title>Login Form Design</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="login.js"></script>
+    <body>
+
+<!--Big blue-->
+<div class="preloader-wrapper active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div>
+      <div class="gap-patch">
+        <div class="circle"></div>
+      </div>
+      <div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+        <div class="loginbox">
+        <img src="avatar.png" class="avatar">
+            <h1>Login Here</h1>
+           </h1>
+           <h> <form id="myform"  method="get" action="details get succesfully">
+               </h>
+                <p>Username</p>
+                <input type="text" name="" placeholder="Enter e-mail adddress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <p>Password</p>
+                <input type="password" name="" placeholder="Enter Password"   pattern=".{5,}" title="five or more characters">
+                <input type="submit" name="" value="Login">
+                
+                <a href="javascript: submitform()">Login</a>
+                <a href="#">Lost your password?</a><br>
+                <a href="#">Don't have an account?</a>
+
+                <div id="loading" style="display: none" >
+                    <div>Add message here</div>
+                    <div>
+                      <img src=" " alt="" />
+                    </div>
+                  </div>
+
+            </form>
+            
+        </div>
+        
+    
+    </body>
+    </head>
+    </html>
