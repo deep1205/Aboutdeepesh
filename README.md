@@ -1,2 +1,2 @@
 # Aboutdeepesh
-[out image](.out1.jpg)
+[out image](/out1.jpg)
